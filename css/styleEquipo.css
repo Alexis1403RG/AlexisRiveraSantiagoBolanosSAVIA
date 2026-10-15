@@ -1,0 +1,26 @@
+:root {
+  --forest: #183c33;
+  --cream: #faf7f0;
+  --gold: #d7a45b;
+  --ink: #27352f;
+  --mute: #5f6963;
+}
+
+.sectioncontainer{
+    display: flex;
+    gap: 30px;
+    max-width: 100%;
+    border: 5px;
+    border-radius: 3px;
+    background-color: var(--forest);
+    
+    
+}
+
+.personal{
+    max-width: fit-content;
+    
+    border-image: auto;
+    border: 2px;
+    gap: 30px;
+}
