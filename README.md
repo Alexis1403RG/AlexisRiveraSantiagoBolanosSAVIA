@@ -18,13 +18,36 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | Estudiante | Página asignada | Rama | Commits principales |
 |---|---|---|---|
-| Alexis Rivera| | | |
+| Alexis Rivera|Equipo |Ramaf2 |9223bf2, c9e1cef |
+|Santiago Bolanos |Menu |Ramaf1 |9223df2, 80fa668|
 
 ## Evidencias Git
 
 | Funcionalidad/corrección | PR hacia develop | Revisor | Resultado de merge / conflicto si ocurrió |
 |---|---|---|---|
-| | | | |
+|pagina del equipo | ![alt text](image-18.png)|Santiago bolanos | merge exitoso|
+|pagina del menu |![alt text](image-19.png) |Alexis Rivera | merge exitoso|
+
 
 ## Verificación final
 Registrar las pruebas de funcionamiento a 1280 px y 375 px, enlaces y páginas.
+
+A 1280px
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+![alt text](image-23.png)
+
+375px
+![alt text](image-24.png)
+
+![alt text](image-25.png)
+
+![alt text](image-26.png)
+
+![alt text](image-27.png)
+
+![alt text](image-28.png)
