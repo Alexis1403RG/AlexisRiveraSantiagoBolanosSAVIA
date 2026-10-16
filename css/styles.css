@@ -302,6 +302,12 @@ img {
   .introEntradas, .introPlatoFuerte, .introPostres, .feature-layout, .experienciaGastronomica {
     flex-direction: column;
   }
+  
+  img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    }
   .navMenu {
   display: flex;
   align-items: center;
