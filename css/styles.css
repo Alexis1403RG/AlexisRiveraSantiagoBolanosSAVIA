@@ -254,6 +254,8 @@ img {
     flex-wrap: nowrap;
   }
 }
+
+/* APARTIR DE AQUI ESTILO DE LA PAGINA DEL MENU */
 .precio{
   font-weight: bold;
   font-family: sans-serif 'Times New Roman', Times, serif;
