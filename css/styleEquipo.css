@@ -7,20 +7,60 @@
 }
 
 .sectioncontainer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 30px;
     max-width: 100%;
     border: 5px;
     border-radius: 3px;
     background-color: var(--forest);
-    
-    
+    padding: 20px;
 }
 
-.personal{
-    max-width: fit-content;
-    
-    border-image: auto;
-    border: 2px;
-    gap: 30px;
+.personal {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    background-color: var(--cream);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.personal p {
+    padding: 15px;
+}
+
+.personal img {
+    width: 40%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.colaboracion {
+    background-color: var(--cream);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.site-header .container,
+.page-hero .container {
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .personal {
+        flex-direction: column-reverse;
+    }
+
+    .personal img {
+        width: 100%;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
 }
