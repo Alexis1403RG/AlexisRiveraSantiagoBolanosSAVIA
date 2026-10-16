@@ -41,7 +41,7 @@ img {
   background: #fff;
   border-bottom: 1px solid #e8e7df;
 }
-.nav-inner {
+.nav-inner{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -297,8 +297,17 @@ img {
   scroll-margin-bottom: 0px;
 
 }
+
 @media (max-width: 600px) {
   .introEntradas, .introPlatoFuerte, .introPostres, .feature-layout, .experienciaGastronomica {
     flex-direction: column;
   }
+  .navMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 78px;
+}
 }
