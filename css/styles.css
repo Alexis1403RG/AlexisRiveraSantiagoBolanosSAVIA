@@ -308,6 +308,6 @@ img {
   justify-content: space-between;
   flex-direction: column;
   gap: 24px;
-  min-height: 78px;
+  min-height: 76px;
 }
 }
